@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+#first{
+    padding: 250px;
+    width: 55%;
+    background-color: rgb(201, 201, 228);
+}
+#first p{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+#second img{
+    width: 750px;
+    height: 100vh;
+
+}
+#value::placeholder{
+    font-size: 20px;
+    text-align: left;
+}
+h2{
+    display: block;
+    font-size: 27px;
+    width: 400px;
+    /* background-color: aqua; */
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#celsius{
+    padding-left: 105px;
+
+}
+input#value{
+    margin-top: 5px;
+    width: 180px;
+    height: 20px;
+}
+p{
+    padding-top: 15px;
+    font-size: 17px;
+}
+span{
+    margin-left: 10px;
+}
+#convert{
+    font-size: 18px;
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
